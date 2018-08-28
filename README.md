@@ -1,2 +1,2 @@
-# HalePonoFall2018
+# PhaserDevTemplate
 A basic environment for phaser game development
