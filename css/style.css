@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: #333333;
+}
+
+.debug {
+    color: #ffffff;
+}
+
+#editorInfo {
+    display: none;
+}
