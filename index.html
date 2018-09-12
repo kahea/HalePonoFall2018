@@ -1,10 +1,21 @@
 <!doctype html>
 <head>
     <title>My Phaser Game</title>
-    <script src="../phaser.js"></script>
-    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/phaser.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/levels/level.js"></script>
+    <script src="js/levels/preload.js"></script>
+    <script src="js/levels/splash.js"></script>
+    <script src="js/game_objects/game_object.js"></script>
+    <script src="js/game_objects/wall.js"></script>
+    <script src="js/game_objects/player.js"></script>
 </head>
 <body>
-    <h2>Blocky Jumpy</h2>
+    <div id="game"></div>
+    <div id="editorInfo">
+      <span id="tileSelected" class="debug">tile:</span>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
